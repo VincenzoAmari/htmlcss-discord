@@ -7,30 +7,41 @@
 
 header{
     background-image: url(img-3/jumbo.png);
+    
 
 }
 
 .flex{
     display: flex;
+    margin: 0 auto;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar{
     display: flex;
     justify-content: space-around;
+    align-items: center;
    
+}
+
+.foot-nav{
+    justify-items: center;
 }
 
 
 
 
 .main_item{
+    
    
     
 }
 
 .main_item_foot{
-   
- 
+    display: flex;
+    flex-direction: column;
 }
 
 .foobar{
