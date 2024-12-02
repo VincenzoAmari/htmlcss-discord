@@ -91,7 +91,13 @@ header{
 }
 
 
+.basis-60{
+    flex-basis: 60%;
+}
 
+.basis-40{
+    flex-basis: 40%;
+}
 
 
 .main_item_foot{
