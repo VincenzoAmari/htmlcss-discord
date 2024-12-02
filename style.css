@@ -157,12 +157,14 @@ h2{
  
 footer{
     color: white;
+    background-color: #23272A;  
 }
 
 .footer{
-    background-color: #23272A;
-    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: space-between
 }
+
 
 .first_column{
 
@@ -180,4 +182,14 @@ footer{
 
 .flag{
     width: 30px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.end-footer {
+    border-top: solid #7289DA 2px;
+    justify-content: space-between;
 }
