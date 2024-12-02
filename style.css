@@ -17,10 +17,19 @@ header{
 
 }
 
+.padding-inline-20{
+    padding-inline: 20%;
+
+}
+
+.padding-block{
+    padding-block: 100px;
+}
+
 .flex{
     display: flex;
     margin: 0 auto;
-    width: 70%;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -75,9 +84,9 @@ header{
         
 
         .header-nav_button{
-            padding: 25px; 
+            padding: 20px; 
             border-radius: 50px;
-            font-size: 2rem;
+            font-size: 1.75rem;
             font-weight: 500;
             border-width: 0;
 
@@ -100,23 +109,49 @@ header{
 }
 
 
-.main_item_foot{
-    display: flex;
-    flex-direction: column;
-}
 
-.foobar{
-  
-}
+.bc-gray{
+    background-color: #f6f6f6;
 
-.foobar_item-container{
     
 }
 
-.foobar_item{
-   
+.main-foot{
+    justify-items: center;
+
+    h2{
+        padding-block: 30px;
+        
+    }
+
+    & > *{
+        text-align: center;
+        
+    }  
+
+    }
+
+.ready-title{
+    background-image: url(img-3/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-inline: 35px;
+    margin-bottom: 20px;
 }
 
-.foobar_end{
+h2{
+    padding-block: 20px;
     
+
 }
+
+.main-foot-button{
+            padding: 15px; 
+            border-radius: 50px;
+            font-size: 1.5rem;
+            font-weight: 500;
+            border-width: 0;
+            background-color: #7289DA;
+            color: white;
+}
+            
