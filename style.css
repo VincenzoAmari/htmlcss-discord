@@ -165,12 +165,6 @@ footer{
     justify-content: space-between
 }
 
-
-.first_column{
-
-
-}
-
 .loghi_footer{
     width: 20px;
     filter: invert(1);
@@ -192,4 +186,25 @@ footer{
 .end-footer {
     border-top: solid #7289DA 2px;
     justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.sing-up_button{
+            padding: 10px; 
+            border-radius: 50px;
+            font-size: 0.7rem;
+            font-weight: 500;
+            border-width: 0;
+            background-color: #7289DA;
+            color: white;
+}
+
+.padding-block-footer{
+    padding-block: 50px;
+}
+
+.padding-text-foot{
+    p{
+        padding-block: 10px;
+    }
 }
