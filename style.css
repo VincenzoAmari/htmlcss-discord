@@ -154,4 +154,30 @@ h2{
             background-color: #7289DA;
             color: white;
 }
-            
+ 
+footer{
+    color: white;
+}
+
+.footer{
+    background-color: #23272A;
+    justify-content: space-between;
+}
+
+.first_column{
+
+
+}
+
+.loghi_footer{
+    width: 20px;
+    filter: invert(1);
+}
+
+.blue-font{
+    color: #7289DA;
+}
+
+.flag{
+    width: 30px;
+}
