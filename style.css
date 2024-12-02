@@ -11,7 +11,7 @@ header{
     background-image: url(img-3/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     
     
 
@@ -25,11 +25,30 @@ header{
     align-items: center;
 }
 
+.nav-logo{
+    height: 60px;
+}
+
 .navbar{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 1.5rem;
+    width: 80%;
    
+}
+
+.login-button{
+    padding: 15px; 
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-width: 0;
+}
+
+.nav-center{
+    display: flex;
+    gap: 5%;
 }
 
 .header-nav{
